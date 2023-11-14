@@ -51,7 +51,7 @@ export default async function MinhaAgenda() {
             Minha agenda
           </styled.h3>
 
-          <MyAgendaList talks={data.talks} />
+          {/* <MyAgendaList talks={data.talks} /> */}
         </Container>
       </Box>
 
