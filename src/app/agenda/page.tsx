@@ -36,14 +36,14 @@ export default async function Programacao() {
       <Box bg='primary' px='10' pt={['5', '5', '24']} pb='4'>
         <Header />
       </Box>
-      <AgendaSection
+      {/* <AgendaSection
         talks={data.talks}
         defaultRoom='principal'
         isActive={
           Boolean(data.activate_agenda) ||
           process.env.NODE_ENV === 'development'
         }
-      />
+      /> */}
       <SpeakerModal />
       <Footer />
 

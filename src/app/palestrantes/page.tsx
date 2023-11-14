@@ -45,9 +45,9 @@ export default async function Palestrantes() {
       <Box bgColor='primary' position='relative' pb='10'>
         <Container>
           <Grid gridTemplateColumns={['1fr', '1fr', '1fr 1fr']} gap='4'>
-            {data.speakers.map((speaker) => (
+            {/* {data.speakers.map((speaker) => (
               <SpeakerInfo key={speaker.id} {...speaker} />
-            ))}
+            ))} */}
           </Grid>
         </Container>
       </Box>

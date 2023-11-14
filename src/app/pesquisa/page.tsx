@@ -48,7 +48,7 @@ export default async function Palestrantes() {
       </Box>
       <Box bgColor="primary" position="relative" pb="10">
         <Container>
-          <SurveySection talks={data.talks} />
+          {/* <SurveySection talks={data.talks} /> */}
         </Container>
       </Box>
       <Footer />
