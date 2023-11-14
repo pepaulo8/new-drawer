@@ -29,24 +29,24 @@ export default async function Home() {
         <VenueSection />
       </Box>
       <Box bgColor='primary' position='relative' pt='24' zIndex={1}>
-        <SpeakersSection speakers={data.speakers} />
+        {/* <SpeakersSection speakers={data.speakers} /> */}
       </Box>
-      {data.sponsors?.length > 0 && (
+      {/* {data.sponsors?.length > 0 && (
         <SponsorsSection sponsors={data.sponsors} />
-      )}
-      {data.partners?.length > 0 && (
+      )} */}
+      {/* {data.partners?.length > 0 && (
         <PartnersSection partners={data.partners} />
-      )}
+      )} */}
       <TicketSection />
-      <CommunitiesSection communities={data.communities} />
-      <AgendaSection
+      {/* <CommunitiesSection communities={data.communities} /> */}
+      {/* <AgendaSection
         talks={data.talks}
         isActive={
           Boolean(data.activate_agenda) ||
           process.env.NODE_ENV === 'development'
         }
-      />
-      <FAQSection faq={data.faq} />
+      /> */}
+      {/* <FAQSection faq={data.faq} /> */}
       <SpeakerModal />
       <Footer />
     </main>

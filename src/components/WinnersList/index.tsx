@@ -79,21 +79,6 @@ const WinnersList: React.FC<Props> = ({
 
   return (
     <Center bg='primary' flexDir='column' minH='100vh'>
-      <NextImage
-        src='/logo-vertical-white.svg'
-        alt='logo'
-        width={100}
-        height={50}
-        className={css({
-          mx: 'auto',
-          mb: '4',
-          transition: 'all .3s ease-in-out',
-          _hover: {
-            transform: 'scale(1.03)',
-            opacity: '.8',
-          },
-        })}
-      />
       <Box
         bg='white'
         p='4'

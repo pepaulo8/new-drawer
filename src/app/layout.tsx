@@ -6,16 +6,16 @@ import Script from 'next/script';
 const poppins = Poppins({ subsets: ['latin'], weight: ['400', '700'] });
 
 export const metadata: Metadata = {
-  title: 'FrontEnd Day - Fortaleza 2023',
+  title: 'Witto no Ceará RH - 2023',
   description: 'Um dia inteiro para você ampliar suas conexões',
   openGraph: {
     type: 'website',
     locale: 'pt_BR',
-    url: 'https://frontendday.com.br',
+    url: 'https://www.witto.com.br',
     images: [
       {
-        url: 'https://frontendday.descompliqueapps.com.br/wp-content/uploads/2023/08/banner-eventbrite-frontendday-1.png',
-        alt: 'FrontEnd Day - Fortaleza 2023',
+        url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQknYhUVZbMBQV0v6zaJCyg5eKUI3tU6oO6RhtoV5kb&s',
+        alt: 'Witto no Ceará RH - 2023',
       },
     ],
   },

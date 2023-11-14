@@ -1,6 +1,7 @@
 'use client';
 import { Center, styled } from '@/styled-system/jsx';
 import { DrawItem } from '@/types';
+import Image from 'next/image';
 import React from 'react';
 
 type Props = {
@@ -45,16 +46,25 @@ const DoDrawForm: React.FC<Props> = ({ onDraw }) => {
   };
 
   return (
-    <Center bg="primary" p="4">
+    <>
+    <div style={{ display: 'flex', justifyContent: 'center', backgroundColor: '#0E1F4A' }}>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQknYhUVZbMBQV0v6zaJCyg5eKUI3tU6oO6RhtoV5kb&s" alt="Logo da empresa Witto" style={{ marginTop: 15 }} />
+
+    </div>
+
+    <Center bg="primary" p="4" minH='100vh'>
       <styled.form
         onSubmit={handleSubmit}
         maxW="800px"
         w="100%"
+        h="10%"
         mx="auto"
         border="1px solid white"
         p="4"
+        marginTop="-20"
         borderRadius="10px"
         bg="#f1f1f1"
+        display="block"
       >
         <styled.label>Itens para sortear:</styled.label>
         <styled.textarea
@@ -92,6 +102,7 @@ const DoDrawForm: React.FC<Props> = ({ onDraw }) => {
         </styled.button>
       </styled.form>
     </Center>
+    </>
   );
 };
 

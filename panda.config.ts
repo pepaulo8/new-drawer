@@ -70,7 +70,7 @@ export default defineConfig({
       },
       colors: {
         primary: {
-          DEFAULT: { value: 'rgb(2, 18, 51)' },
+          DEFAULT: { value: 'rgb(14, 31, 74)' },
           50: { value: 'rgb(249 249 250)' },
           100: { value: ' rgb(235 236 239)' },
           200: { value: ' rgb(220 222 227)' },

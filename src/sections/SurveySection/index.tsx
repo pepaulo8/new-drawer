@@ -1,6 +1,6 @@
 'use client';
 
-import { dataApi } from '@/config/api';
+// import { dataApi } from '@/config/api';
 import { useEvaluatedTalks } from '@/hooks/useEvaluedTalks';
 import { Box, Center, Flex, styled } from '@/styled-system/jsx';
 import { Talks } from '@/types';
@@ -103,12 +103,12 @@ const SurveySection: React.FC<Props> = ({ talks }) => {
 
     try {
       setIsSubmitting(true);
-      await dataApi.post('/survey/v1/save', {
-        talk: selectedTalk,
-        contentQualityRating,
-        teachingQualityRating,
-        comment,
-      });
+      // await dataApi.post('/survey/v1/save', {
+      //   talk: selectedTalk,
+      //   contentQualityRating,
+      //   teachingQualityRating,
+      //   comment,
+      // });
 
       addEvaluetedTalk(selectedTalk);
       resetForm();
